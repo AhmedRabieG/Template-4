@@ -1,0 +1,55 @@
+:root {
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/////////////////////////////
+// => Global Fonts
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-Regular.ttf);
+    font-weight: 400;
+  }
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-Bold.ttf);
+    font-weight: 700;
+}
+
+/////////////////////////////
+// => container and media query
+.container {
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 1336px) {
+    .container {
+      max-width: 1368px;
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+  }
+  /////////////
+  /// 
+.header-border {
+border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.text-14 {
+font-size: 14px;
+}
